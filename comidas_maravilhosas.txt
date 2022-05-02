@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-pamonha
-lasanha
-=======
-Strogonoff
-Macarronada
->>>>>>> Alves
+unix
+shell
+html
+javascript
