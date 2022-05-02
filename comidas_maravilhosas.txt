@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 unix
 shell
 html
 javascript
+=======
+unix 
+bash
+shell
+>>>>>>> trybe-skills-changes
