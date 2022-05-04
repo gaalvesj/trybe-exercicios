@@ -5,4 +5,9 @@ O que eu vou aprender na Trybe:
 - Git
 - HTML
 - CSS
+
 HTML e CSS
+React
+
+HTML e CSS
+ master
