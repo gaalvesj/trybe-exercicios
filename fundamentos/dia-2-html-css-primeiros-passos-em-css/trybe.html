@@ -4,46 +4,18 @@
      <head>
          <meta charset="UTF-8">
          <title>Primeiro Site em HTML</title>
-            <style>
+         <link rel="stylesheet" href="style.css">
 
-             #lista{
-                 
-                 color: white; 
-             }
-             body {
-                 background-color: darkgray;
-             }        
-             li ,h4{
-                 font-family: monospace;
-                 font-size: 20px;
-             }
-             h3{
-                 background-color: antiquewhite;
-                 color: black;
-                 text-align: center;
-                 padding: 10px;
-                 text-decoration: none;
-                 margin: 50px;
-             }
-              #Conta{
-                  font-family: monospace;
-                  font-size: 50px;  
-                  padding: 20px;
-                  margin: 100px;                
-                } 
-              
-
-              
-        
-            </style>
+            
      <head>
-            <body>
-             
+            <body style="background-color: darkgrey;">
+              
              <h1>A Minha colecão de NFT</h1>
-             <h3><a href="#Conta">Conta na opensea</a></h3>
+             <h3><div class="Conta" style="background: antiquewhite" href="#Conta">Conta na opensea</h3>
              <p>Eu tenho as seguintes NFT:</p>
+            
             </body>
-    <ul id="lista">
+    <ul class="lista" style="font-family: monospace; font-size: 20px; color: white;">
         
         <li>Los Muertos</li>
         <li>Toxic Skull</li>
@@ -53,7 +25,7 @@
         <li>METABILLIONAIRE</li><br></br>
 
     </ul>
-     <img id="los muertos" src="https://lh3.googleusercontent.com/VotM-uRX7SVFMKXrAZXIkRwhBNN0HslGVHXbX6dweK-yedrh96K5bJyzCzf2C0Jmwmgp5pUsVpmjnIx6y3U2Hw69wzBjUAEg-1av2w=w600" width="400px">
+     <img   id="los muertos" src="https://lh3.googleusercontent.com/VotM-uRX7SVFMKXrAZXIkRwhBNN0HslGVHXbX6dweK-yedrh96K5bJyzCzf2C0Jmwmgp5pUsVpmjnIx6y3U2Hw69wzBjUAEg-1av2w=w600" width="400px">
      <img id="Toxic Skull" src="https://lh3.googleusercontent.com/quj3Z33OQDykfvLFGC66i95yh-ybPyJfZXaXft5QaHejDB4wopooCtqcaLd1a5QPqJo0WM6CQVhQ_xNEEzn4unAFf3g7r3gyhZNvMQ=w600" width="400px">
      <img id="Arcade Land" src="https://lh3.googleusercontent.com/hC9pLwXY8LJ1eVb-plx69QOM-OtmCg1dqku_MjNd7HLVxvfjFVHlxbHHtiPnI69MK4XTHGuMW_kcKTvsLeIe-ZRbwRtsPnFRQD90PA=w600" width="400px">
      <img id="EightBit" src="https://lh3.googleusercontent.com/XDoli-aH0DG9xbxYhrBBMQIdDA1rSBA-wRo8MiJnVpFwcc34PtpIJ6eE5YArdfdxwPUhsxeHGODbUAsLAeKXrPaXPAvSwZVJFphHmg=w600" width="400px">
@@ -87,7 +59,7 @@
         <h4><a href="#METABILLIONAIRE">METABILLIONAIRE</a></h4>
         <p>The METABILLIONAIRE is a collection of 7,777 unique MB NFTs - unique digital collectibles living on the Ethereum blockchain</p>
         
-        <br></br><a id="Conta" href="https://opensea.io/account" target="_blank">Carteira 
+        <br></br><a class="Conta" href="https://opensea.io/account" target="_blank">Carteira 
         </a>
 
         </html>

@@ -1,0 +1,31 @@
+ #lista{
+                 
+    color: white; 
+    }
+body {
+     background-color: darkgray;
+    }        
+li ,h4{
+                 font-family: monospace;
+                 font-size: 20px;
+             }
+ h3{
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    margin: 50px;
+             }
+.Conta {
+    
+    font-family: monospace;
+    font-size: 50px;  
+    padding: 20px;
+    margin: 100px;                
+} 
+              
+
+              
+        
+            
