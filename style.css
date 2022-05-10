@@ -1,0 +1,41 @@
+
+      #header {
+        text-align: center;
+        
+      }
+
+      .first {
+        background-color: rgb(235, 200, 84);
+        font-size: 20px;
+        height: 50px;
+        text-align: center;
+        width: 200px;
+        margin-left: 43%;
+        margin-bottom: -20px;
+      }
+
+      .second {
+        background-color: rgb(219, 219, 219);
+        font-size: 20px;
+        height: 50px;
+        text-align: center;
+        width: 300px;
+        float: left;
+        margin-left: 434px;
+        
+      }
+
+      .third {
+        background-color: rgb(170, 142, 106);
+        font-size: 20px;
+        height: 50px;
+        text-align: center;
+        width: 300px;
+        float: right;
+        margin-right: 450px;
+      }
+
+      .tituloprimeirolugar {
+          margin-top: 100px;
+
+      }
